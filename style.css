@@ -1,0 +1,106 @@
+/* navbar */
+
+.nav-item {
+    transition: 1s;
+}
+
+.nav-item:hover {
+    transform: scale(1.3);
+    z-index: 2;
+}
+
+/* hero section */
+
+.border-herocard {
+    box-shadow: 1px 1px 2px 1px rgb(229, 225, 225);
+}
+
+.hero-img {
+    background-image: url(/Assets/Iamge.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 75vh;
+}
+
+.card-hero {
+    right: 0%;
+    top: 40%;
+}
+
+
+@media screen and (min-width:768px) {
+    .card-help {
+        transition: 1s;
+    }
+
+    .card-help:hover {
+        transform: scale(1.1);
+        z-index: 2;
+        box-shadow: 1px 1px 2px 1px rgb(224, 222, 222);
+    }
+
+    .testimonial {
+        background-image: url(/Assets/Ellipse\ 50\ \(1\).png), url(/Assets/Ellipse\ 52.png), url(/Assets/Ellipse\ 51.png), url(/Assets/Ellipse\ 53.png), url(/Assets/Ellipse\ 54.png), url(/Assets/Ellipse\ 55.png), url(/Assets/Ellipse\ 57.png), url(/Assets/Ellipse\ 58.png);
+        background-repeat: no-repeat;
+        background-position: 20% 25%, 15% 70%, 9% 10%, 30% 55%, 88% 8%, 71% 58%, 75% 30%, 90% 55%;
+    }
+}
+
+/* media queries */
+
+@media screen and (width:768px) {
+    .card-hero {
+        right: 10%;
+        top: 40%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .card-help {
+        transition: 1s;
+    }
+
+    .card-help:hover {
+        transform: scale(0.9);
+        z-index: 2;
+        box-shadow: 1px 1px 2px 1px rgb(224, 222, 222);
+    }
+
+    .corner {
+        position: absolute;
+        top: -20px;
+        left: 30%;
+        width: 40px;
+        height: 40px;
+        background: #ffffff;
+        transform: translate(-50%, -50%) rotate(45deg);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    }
+
+
+}
+
+/* testimonial */
+
+.card-testimonial {
+    position: relative;
+    overflow: hidden;
+}
+
+.corner {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* talk to agent */
+
+.bg-agent {
+    background-color: #0F2A47;
+}
